@@ -1,0 +1,45 @@
+body{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.container{
+    height:70vh;
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex ;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    color:brown;
+    background-color:cornsilk ;
+}
+#reset{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color:#191913;
+    color:cornsilk;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+.msg-container {
+    display: none; /* Initially hidden */
+}
+
+.msg-container.show {
+    display: block; /* Show when winner is declared */
+}
